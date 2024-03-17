@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Web Dev Portfolio
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        /* wildcard styling */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* padding for whole body */
+        body {
+            padding: 15px;
+        }
+
+        /* styling body */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+        }
+
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: #5673C8;
+        }
+
+        a:hover {
+            color: lightblue;
+        }
+
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row>.column {
+            padding: 6px;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* content decoration */
+        .content {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        .profile-pic {
+            float: right;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/my photo.jpg" alt="upendra" width="10%" height="10%" class="profile-pic">
+    <!-- title and tag -->
+    <div class="container">
+        <h1>Upendra Varma Badarvada</h1>
+        <br>
+        <br>
+        <h2>Web Developer</h3>
+            <hr>
+            <details>
+                <summary>About Upendra</summary>
+                <p>
+                    I have been working as senior software engineer in Robert Bosch Engineering and Business Solutions
+                    from
+                    past 3 years.
+                    I have been working as a web developer where I am working on development of Web application built
+                    using
+                    angular.
+                    I did 11 months internship in Robert Bosch Engineering and Business Solutions where I worked as a
+                    python
+                    developer.
+                    I have 1.9 years of experience as Angular developer in Century link Technologies where I worked as a
+                    front-end developer and got chance to work on Angular, HTML 5, CSS 3.0 and bootstrap 3.
+                </p>
+            </details>
+            <hr>
+            <!-- Content of the body-->
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <img src="images/html5.jpeg" alt="" style="width:100%; height:150px">
+                        <h3>
+                            <a href="https://www.w3schools.com/html/">HTML</a>
+                        </h3>
+                        <p>
+                            JavaScript is the most popular scripting language for the Web. It is easy to learn,
+                            lightweight,
+                            cross-platform, single-threaded, and interpreted compiled language. It is widely used for
+                            web
+                            development, both on the client side and server side
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="content">
+                        <img src="images/css.jpeg" alt="" style="width:100%; height:150px">
+                        <h3>
+                            <a href="https://www.w3schools.com/css/">CSS</a>
+                        </h3>
+                        <p>
+                            CSS is a rule-based language that defines the rules to design a particular element or a
+                            group of
+                            elements on your web page.This CSS Tutorial is designed for both beginners and experienced
+                            professionals. There are frameworks also for css like bootstrap & prime ng</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="content">
+                        <img src="images/js.png" alt="" style="width:100%; height:150px">
+                        <h3>
+                            <a href="https://www.w3schools.com/js/">JS</a>
+                        </h3>
+                        <p>
+                            JavaScript is the most popular scripting language for the Web. It is easy to learn,
+                            lightweight,
+                            cross-platform, single-threaded, and interpreted compiled language. It is widely used for
+                            web
+                            development, both on the client side and server side
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <hr>
+    <h2>Hobbbies</h2>
+    <ol type="a" start="1">
+        <li> Bing Netflix </li>
+        <li> Explore new tech </li>
+        <li> Listening music </li>
+    </ol>
+    <hr>
+    <h2>Location</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.796437634301!2d77.67680427442603!3d12.85642051739436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d6eb858ed8b%3A0xcf8ced20bfde5ec!2sSurya%20Luxury%20Building!5e0!3m2!1sen!2sin!4v1710055451167!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr />
+    <footer>
+        <center>
+            <h2> &copy; Upendra's portfolio 2024 written with &hearts; &spades;</h2>
+        </center>
+    </footer>
+</body>
+
+</html>
